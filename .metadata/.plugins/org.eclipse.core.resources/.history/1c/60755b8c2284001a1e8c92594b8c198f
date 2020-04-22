@@ -12,15 +12,7 @@ public class PrimeiraClasseJava {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in); 
 
-		Aluno aluno1 = new Aluno(); // Joao
-		
-		Aluno aluno2 = new Aluno(); // Pedro
-		
-		Aluno aluno3 = new Aluno(); // Alex
-		
-		Aluno aluno4 = new Aluno("Maria");
-		
-		Aluno aluno5 = new Aluno("Jose,50");
+		Aluno aluno1 = new Aluno();
 		
 		sc.close();
 	}
