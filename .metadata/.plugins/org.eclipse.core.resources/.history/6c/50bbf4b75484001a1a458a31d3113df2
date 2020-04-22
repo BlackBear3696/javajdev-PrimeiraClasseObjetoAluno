@@ -46,7 +46,7 @@ public class PrimeiraClasseJava {
 		aluno2.setIdade(33);
 		aluno2.setDataNascimento("10/10/2013");
 		
-		System.out.println("Nome do aluno  é = " + aluno2.getNome());
+		System.out.println("Nome do aluno 1 é = " + aluno2.getNome());
 		System.out.println("Idade do aluno é : " + aluno2.getIdade());
 		System.out.println("Data de nascimento do aluno é : " + aluno2.getDataNascimento());
 		

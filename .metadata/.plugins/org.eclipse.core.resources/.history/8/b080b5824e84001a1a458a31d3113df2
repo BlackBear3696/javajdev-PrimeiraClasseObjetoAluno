@@ -1,0 +1,36 @@
+package cursojava.classes;
+//Está é mossa classe/objeto que o Aluno
+public class Aluno {
+
+	private String nome;
+	private int idade;
+	private String dataNascimento;
+	private String registroGeral;
+	private String numeroCPF;
+	private String nomeMae;
+	private String nomePai;
+	private String datamatricula;
+	private String nomeEscola;
+	private String serieMatriculado;
+	
+	public Aluno() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Aluno(String nomePadrao) {
+		nome = nomePadrao;
+	}
+	
+	public Aluno(String nomePadrao, int idadePadrao) {
+		nome = nomePadrao;
+		idade = idadePadrao;
+	}
+	
+	// Veremos os metodos SETTRERS e GETTERS do objeto
+	// SET é para adicionar ou receber dados para os atributos
+	// GET é para resgatar ou obter o valor do atributo
+	
+	public void setNome(String nome) {		
+		nome = nome;
+	}
+}
