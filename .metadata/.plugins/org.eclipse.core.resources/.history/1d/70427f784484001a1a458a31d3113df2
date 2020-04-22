@@ -1,9 +1,10 @@
 package cursojava.classes;
+
 //Está é mossa classe/objeto que o Aluno
 public class Aluno {
 
-	public String nome;
-	public int idade;
+	String nome;
+	int idade;
 	String dataNascimento;
 	String registroGeral;
 	String numeroCPF;
