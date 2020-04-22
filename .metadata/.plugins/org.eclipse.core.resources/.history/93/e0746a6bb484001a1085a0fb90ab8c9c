@@ -41,11 +41,10 @@ public class PrimeiraClasseJava {
 		System.out.println("Data da Matricula do aluno é : " + aluno1.getDatamatricula());
 		System.out.println("Nome da Escola do aluno é : " + aluno1.getNomeEscola());
 		System.out.println("Serie Matriculado do aluno é : " + aluno1.getSerieMatriculado());
-		System.out.println("A nota1 do Aluno é : " + aluno1.getNota1());
-		System.out.println("A nota2 do Aluno é : " + aluno1.getNota2());
-		System.out.println("A nota3 do Aluno é : " + aluno1.getNota3());
-		System.out.println("A nota4 do Aluno é : " + aluno1.getNota4());
-		System.out.println("A media do aluno1 é: " + aluno1.getMediaNota());
+		System.out.println("A nota-1 do Aluno é : " + aluno1.getNota1());
+		System.out.println("A nota-1 do Aluno é : " + aluno1.getNota2());
+		System.out.println("A nota-1 do Aluno é : " + aluno1.getNota3());
+		System.out.println("A nota-1 do Aluno é : " + aluno1.getNota4());
 		System.out.println("-----------------------------------------------------------------------------");
 		
 		//------------------------------------------------------------------------------------------------

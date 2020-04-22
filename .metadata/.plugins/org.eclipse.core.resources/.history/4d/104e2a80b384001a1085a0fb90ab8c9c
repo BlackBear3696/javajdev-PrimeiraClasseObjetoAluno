@@ -148,9 +148,6 @@ public class Aluno {
 		this.nota4 = nota4;
 	}
 	
-	public double getMediaNota() {
-		return(nota1+nota2+nota3+nota4)/4;
-	}
 	
 	
 }

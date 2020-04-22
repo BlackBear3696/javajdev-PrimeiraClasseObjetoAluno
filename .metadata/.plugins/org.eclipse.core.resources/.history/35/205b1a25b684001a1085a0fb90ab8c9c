@@ -45,7 +45,6 @@ public class PrimeiraClasseJava {
 		System.out.println("A nota2 do Aluno é : " + aluno1.getNota2());
 		System.out.println("A nota3 do Aluno é : " + aluno1.getNota3());
 		System.out.println("A nota4 do Aluno é : " + aluno1.getNota4());
-		System.out.println("A media do aluno1 é: " + aluno1.getMediaNota());
 		System.out.println("-----------------------------------------------------------------------------");
 		
 		//------------------------------------------------------------------------------------------------
