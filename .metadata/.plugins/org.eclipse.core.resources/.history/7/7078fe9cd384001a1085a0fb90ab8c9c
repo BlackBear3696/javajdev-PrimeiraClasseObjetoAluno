@@ -163,7 +163,6 @@ public class Aluno {
 		}
 	}			
 
-	//Metodo que retorna se esta aprovado ou não baseado se a media é maior ou igual a 7
 	public String getAlunoAprovado2() {
 		double media = this.getMediaNota();
 		if(media >= 7) {

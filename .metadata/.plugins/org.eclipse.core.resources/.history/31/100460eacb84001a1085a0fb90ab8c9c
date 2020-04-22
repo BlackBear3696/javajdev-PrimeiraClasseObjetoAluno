@@ -148,12 +148,9 @@ public class Aluno {
 		this.nota4 = nota4;
 	}
 	
-	// Metodo que retorna a media do Aluno
 	public double getMediaNota() {
 		return(nota1+nota2+nota3+nota4)/4;
 	}
-	
-	// Metodo que retorna true para Aprovado e false para Reprovado
 	public boolean getAlunoAprovado() {
 		double media=this.getMediaNota();
 		if(media >=7) {
@@ -161,19 +158,16 @@ public class Aluno {
 		}else {
 			return false;
 		}
-	}			
-
-	//Metodo que retorna se esta aprovado ou não baseado se a media é maior ou igual a 7
-	public String getAlunoAprovado2() {
-		double media = this.getMediaNota();
-		if(media >= 7) {
-			return "Aluno está Aprovado";
-		}else {
-			return "Aluno não está Aprovado";
-		}
-	}
+		
+		public String getAlunoAprovado1() {
+			double media=this.getMediaNota();
+			if(media >=7) {
+				return "Aluno está aprovado";
+			}else {
+				return "Aluno não está aprovado";
+			}
 			
 		
 	}
 
-
+}
