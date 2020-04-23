@@ -149,19 +149,12 @@ public class Aluno {
 	}
 
 	
-	@Override
-	public String toString() {
-		return "Aluno [nome=" + nome + ", idade=" + idade + ", dataNascimento=" + dataNascimento + ", registroGeral="
-				+ registroGeral + ", numeroCPF=" + numeroCPF + ", nomeMae=" + nomeMae + ", nomePai=" + nomePai
-				+ ", datamatricula=" + datamatricula + ", nomeEscola=" + nomeEscola + ", serieMatriculado="
-				+ serieMatriculado + ", disciplina=" + disciplina + "]";
-	}
-	
-	
 
 	//Comparação entre atributos do objeto para saber se os atributos de A = B
 	// Selecionar os atributos que seram comparados
 	
+	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;

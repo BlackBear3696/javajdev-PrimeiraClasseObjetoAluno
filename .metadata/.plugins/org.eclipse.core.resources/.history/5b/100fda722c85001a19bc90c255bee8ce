@@ -53,7 +53,7 @@ public class PrimeiraClasseJava {
 		aluno1.getDisciplina().setNota3(Double.parseDouble(N3));
 		aluno1.getDisciplina().setNota4(Double.parseDouble(N4));
 		
-		aluno1.getDisciplina().setDisciplina1(disc1); // Resgata o objeto e seta o atributo
+		aluno1.getDisciplina().setDisciplina1(disc1);
 		aluno1.getDisciplina().setDisciplina2(disc2);
 		aluno1.getDisciplina().setDisciplina3(disc3);
 		aluno1.getDisciplina().setDisciplina4(disc4);

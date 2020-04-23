@@ -48,15 +48,15 @@ public class PrimeiraClasseJava {
 		aluno1.setDatamatricula(DataM);
 		aluno1.setNomeEscola(NomeE);
 		aluno1.setSerieMatriculado(SerieM);*/
-		aluno1.getDisciplina().setNota1(Double.parseDouble(N1)); // Passando de String para Double
-		aluno1.getDisciplina().setNota2(Double.parseDouble(N2));
-		aluno1.getDisciplina().setNota3(Double.parseDouble(N3));
-		aluno1.getDisciplina().setNota4(Double.parseDouble(N4));
+		aluno1.setDisciplina1(disc1);
+		aluno1.setNota1(Double.parseDouble(N1)); // Passando de String para Double
+		aluno1.setDisciplina2(disc2);
+		aluno1.setNota2(Double.parseDouble(N2));
+		aluno1.setDisciplina3(disc3);
+		aluno1.setNota3(Double.parseDouble(N3));
+		aluno1.setDisciplina4(disc4);
+		aluno1.setNota4(Double.parseDouble(N4));
 		
-		aluno1.getDisciplina().setDisciplina1(disc1); // Resgata o objeto e seta o atributo
-		aluno1.getDisciplina().setDisciplina2(disc2);
-		aluno1.getDisciplina().setDisciplina3(disc3);
-		aluno1.getDisciplina().setDisciplina4(disc4);
 		
 		System.out.println(aluno1.toString()); // Descrição do Objeto na memoria
 		System.out.println("Media do Aluno = " + aluno1.getMediaNota());
