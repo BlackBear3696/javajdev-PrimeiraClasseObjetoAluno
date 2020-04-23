@@ -17,14 +17,14 @@ public class Aluno {
 	private String nomeEscola;
 	private String serieMatriculado;
 	
-	private List<Disciplina>  disciplinas = new ArrayList<Disciplina>();
+	private List<Disciplina>  disciplina = new ArrayList<Disciplina>();
 	
-	public void setDisciplinas(List<Disciplina> disciplinas) {
-		this.disciplinas = disciplinas;
+	public void setDisciplina(Disciplina disciplina) {
+		this.disciplina = disciplina;
 	}
 	
-	public List<Disciplina> getDisciplinas() {
-		return disciplinas;
+	public Disciplina getDisciplina() {
+		return disciplina;
 	}
 	
 	public Aluno() { //Cria os dados na memoria = Sendo padrão do Java
@@ -129,7 +129,7 @@ public class Aluno {
 	
 	// Metodo que retorna a media do Aluno
 	public double getMediaNota() {
-		return 0;
+		return(disciplina.getNota1()+disciplina.getNota2()+disciplina.getNota3()+disciplina.getNota4())/4;
 	}// Acessndo o objeto de outra classe
 	
 	// Metodo que retorna true para Aprovado e false para Reprovado
@@ -158,7 +158,7 @@ public class Aluno {
 		return "Aluno [nome=" + nome + ", idade=" + idade + ", dataNascimento=" + dataNascimento + ", registroGeral="
 				+ registroGeral + ", numeroCPF=" + numeroCPF + ", nomeMae=" + nomeMae + ", nomePai=" + nomePai
 				+ ", datamatricula=" + datamatricula + ", nomeEscola=" + nomeEscola + ", serieMatriculado="
-				+ serieMatriculado + "]";
+				+ serieMatriculado + ", disciplina=" + disciplina + "]";
 	}
 	
 	
@@ -196,7 +196,11 @@ public class Aluno {
 			return false;
 		return true;
 	}
-				
+
+	
+	
+			
+		
 	}
 
 

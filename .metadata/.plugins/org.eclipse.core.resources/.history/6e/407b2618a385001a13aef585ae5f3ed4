@@ -19,13 +19,7 @@ public class Aluno {
 	
 	private List<Disciplina>  disciplinas = new ArrayList<Disciplina>();
 	
-	public void setDisciplinas(List<Disciplina> disciplinas) {
-		this.disciplinas = disciplinas;
-	}
 	
-	public List<Disciplina> getDisciplinas() {
-		return disciplinas;
-	}
 	
 	public Aluno() { //Cria os dados na memoria = Sendo padrão do Java
 		
@@ -196,7 +190,11 @@ public class Aluno {
 			return false;
 		return true;
 	}
-				
+
+	
+	
+			
+		
 	}
 
 
