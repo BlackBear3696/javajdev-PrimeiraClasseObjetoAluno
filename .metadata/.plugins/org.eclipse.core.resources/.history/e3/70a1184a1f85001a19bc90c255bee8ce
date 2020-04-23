@@ -212,31 +212,18 @@ public class Aluno {
 		}
 	}
 
-	
-
-	//Comparação entre atributos do objeto para saber se os atributos de A = B
-	// Selecionar os atributos que seram comparados
-	
 	@Override
 	public String toString() {
 		return "Aluno [nome=" + nome + ", idade=" + idade + ", dataNascimento=" + dataNascimento + ", registroGeral="
 				+ registroGeral + ", numeroCPF=" + numeroCPF + ", nomeMae=" + nomeMae + ", nomePai=" + nomePai
 				+ ", datamatricula=" + datamatricula + ", nomeEscola=" + nomeEscola + ", serieMatriculado="
-				+ serieMatriculado + ", nota1=" + nota1 + ", disciplina1=" + disciplina1 + ", nota2=" + nota2
-				+ ", disciplina2=" + disciplina2 + ", nota3=" + nota3 + ", disciplina3=" + disciplina3 + ", nota4="
-				+ nota4 + ", disciplina4=" + disciplina4 + ", getDisciplina1()=" + getDisciplina1()
-				+ ", getDisciplina2()=" + getDisciplina2() + ", getDisciplina3()=" + getDisciplina3()
-				+ ", getDisciplina4()=" + getDisciplina4() + ", getNome()=" + getNome() + ", getIdade()=" + getIdade()
-				+ ", getDataNascimento()=" + getDataNascimento() + ", getRegistroGeral()=" + getRegistroGeral()
-				+ ", getNumeroCPF()=" + getNumeroCPF() + ", getNomeMae()=" + getNomeMae() + ", getNomePai()="
-				+ getNomePai() + ", getDatamatricula()=" + getDatamatricula() + ", getNomeEscola()=" + getNomeEscola()
-				+ ", getSerieMatriculado()=" + getSerieMatriculado() + ", getNota1()=" + getNota1() + ", getNota2()="
-				+ getNota2() + ", getNota3()=" + getNota3() + ", getNota4()=" + getNota4() + ", getMediaNota()="
-				+ getMediaNota() + ", getAlunoAprovado()=" + getAlunoAprovado() + ", getAlunoAprovado2()="
-				+ getAlunoAprovado2() + ", hashCode()=" + hashCode() + ", getClass()=" + getClass() + ", toString()="
-				+ super.toString() + "]";
+				+ serieMatriculado + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + ", nota4=" + nota4
+				+ "]";
 	}
 
+	//Comparação entre atributos do objeto para saber se os atributos de A = B
+	// Selecionar os atributos que seram comparados
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;

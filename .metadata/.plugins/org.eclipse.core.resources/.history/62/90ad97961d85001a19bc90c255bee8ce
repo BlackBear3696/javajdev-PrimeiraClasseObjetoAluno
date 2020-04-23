@@ -17,54 +17,61 @@ public class PrimeiraClasseJava {
 		// new Aluno() é uma instância (criação do objeto)
 		// aluno1 é uma referencia para o objeto aluno
 		
-	    String nome = JOptionPane.showInputDialog("Nome do aluno? ");
+	    /*String nome = JOptionPane.showInputDialog("Nome do aluno? ");
 		String idade = JOptionPane.showInputDialog("Idade do aluno? ");
-		/*String DataN=JOptionPane.showInputDialog("Data de nascimento do Aluno? ");
+		(String DataN=JOptionPane.showInputDialog("Data de nascimento do Aluno? ");
 		String RG=JOptionPane.showInputDialog("Número de RG do Aluno? ");
 		String CPF=JOptionPane.showInputDialog("Número do CPF do Aluno? ");
 		String Mae=JOptionPane.showInputDialog("Nome da Mãe do Aluno?");
 		String Pai=JOptionPane.showInputDialog("Nome do Pai do Aluno?");
 		String DataM=JOptionPane.showInputDialog("Data da matricula do Aluno? ");
-		String NomeE=JOptionPane.showInputDialog("Nome da escola do Aluno?");*/
+		String NomeE=JOptionPane.showInputDialog("Nome da escola do Aluno?");
 		String SerieM=JOptionPane.showInputDialog("Serie que o Aluno está matriculado?");
-		String disc1=JOptionPane.showInputDialog("Disciplina 1? ");
 		String N1=JOptionPane.showInputDialog("Nota1 do Aluno? ");
-		String disc2=JOptionPane.showInputDialog("Disciplina 2? ");
 		String N2=JOptionPane.showInputDialog("Nota2 do Aluno? ");
-		String disc3=JOptionPane.showInputDialog("Disciplina 3? ");
 		String N3=JOptionPane.showInputDialog("Nota3 do Aluno? ");
-		String disc4=JOptionPane.showInputDialog("Disciplina 4? ");
 		String N4=JOptionPane.showInputDialog("Nota4 do Aluno? ");
 		
 		
 		Aluno aluno1 = new Aluno(); // Joao
 		aluno1.setNome(nome);
 		aluno1.setIdade(Integer.valueOf(idade)); // Passando de String para Int
-		/*aluno1.setDataNascimento(DataN);
+		/*9aluno1.setDataNascimento(DataN);
 		aluno1.setRegistroGeral(RG);
 		aluno1.setNumeroCPF(CPF);
 		aluno1.setNomeMae(Mae);
 		aluno1.setNomePai(Pai);
 		aluno1.setDatamatricula(DataM);
 		aluno1.setNomeEscola(NomeE);
-		aluno1.setSerieMatriculado(SerieM);*/
-		aluno1.setDisciplina1(disc1);
+		aluno1.setSerieMatriculado(SerieM);
 		aluno1.setNota1(Double.parseDouble(N1)); // Passando de String para Double
-		aluno1.setDisciplina2(disc2);
 		aluno1.setNota2(Double.parseDouble(N2));
-		aluno1.setDisciplina3(disc3);
 		aluno1.setNota3(Double.parseDouble(N3));
-		aluno1.setDisciplina4(disc4);
 		aluno1.setNota4(Double.parseDouble(N4));
 		
 		
 		System.out.println(aluno1.toString()); // Descrição do Objeto na memoria
 		System.out.println("Media do Aluno = " + aluno1.getMediaNota());
 		System.out.println("Resultado = " + aluno1.getAlunoAprovado());
-		System.out.println("Resultado = " + aluno1.getAlunoAprovado2());
+		System.out.println("Resultado = " + aluno1.getAlunoAprovado2());*/
 		
 		
+		// Equals e HashCode (Diferenciar Objetos)
 		
+		Aluno aluno1 = new Aluno();
+		aluno1.setNome("Alex");
+		aluno1.setNumeroCPF("123");
+		
+		Aluno aluno2 = new Aluno();
+		aluno2.setNome("Alex");
+		aluno2.setNumeroCPF("123");
+		
+		if (aluno1.equals(aluno2)) {
+			System.out.println("São iguais");
+		}
+		else {
+			System.out.println("Não são iguais");
+		}
 		sc.close();
 	}
 

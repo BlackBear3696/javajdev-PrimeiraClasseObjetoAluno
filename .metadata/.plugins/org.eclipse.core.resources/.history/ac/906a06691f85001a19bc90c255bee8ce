@@ -19,13 +19,13 @@ public class PrimeiraClasseJava {
 		
 	    String nome = JOptionPane.showInputDialog("Nome do aluno? ");
 		String idade = JOptionPane.showInputDialog("Idade do aluno? ");
-		/*String DataN=JOptionPane.showInputDialog("Data de nascimento do Aluno? ");
+		String DataN=JOptionPane.showInputDialog("Data de nascimento do Aluno? ");
 		String RG=JOptionPane.showInputDialog("Número de RG do Aluno? ");
 		String CPF=JOptionPane.showInputDialog("Número do CPF do Aluno? ");
 		String Mae=JOptionPane.showInputDialog("Nome da Mãe do Aluno?");
 		String Pai=JOptionPane.showInputDialog("Nome do Pai do Aluno?");
 		String DataM=JOptionPane.showInputDialog("Data da matricula do Aluno? ");
-		String NomeE=JOptionPane.showInputDialog("Nome da escola do Aluno?");*/
+		String NomeE=JOptionPane.showInputDialog("Nome da escola do Aluno?");
 		String SerieM=JOptionPane.showInputDialog("Serie que o Aluno está matriculado?");
 		String disc1=JOptionPane.showInputDialog("Disciplina 1? ");
 		String N1=JOptionPane.showInputDialog("Nota1 do Aluno? ");
@@ -40,14 +40,14 @@ public class PrimeiraClasseJava {
 		Aluno aluno1 = new Aluno(); // Joao
 		aluno1.setNome(nome);
 		aluno1.setIdade(Integer.valueOf(idade)); // Passando de String para Int
-		/*aluno1.setDataNascimento(DataN);
+		aluno1.setDataNascimento(DataN);
 		aluno1.setRegistroGeral(RG);
 		aluno1.setNumeroCPF(CPF);
 		aluno1.setNomeMae(Mae);
 		aluno1.setNomePai(Pai);
 		aluno1.setDatamatricula(DataM);
 		aluno1.setNomeEscola(NomeE);
-		aluno1.setSerieMatriculado(SerieM);*/
+		aluno1.setSerieMatriculado(SerieM);
 		aluno1.setDisciplina1(disc1);
 		aluno1.setNota1(Double.parseDouble(N1)); // Passando de String para Double
 		aluno1.setDisciplina2(disc2);
