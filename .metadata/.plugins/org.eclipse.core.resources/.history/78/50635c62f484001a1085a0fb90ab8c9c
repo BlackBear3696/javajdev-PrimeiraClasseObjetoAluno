@@ -44,10 +44,10 @@ public class PrimeiraClasseJava {
 		aluno1.setDatamatricula(DataM);
 		aluno1.setNomeEscola(NomeE);
 		aluno1.setSerieMatriculado(SerieM);
-		aluno1.setNota1(Double.parseDouble(N1)); // Passando de String para Double
-		aluno1.setNota2(Double.parseDouble(N2));
-		aluno1.setNota3(Double.parseDouble(N3));
-		aluno1.setNota4(Double.parseDouble(N4));
+		aluno1.setNota1(Integer.valueOf(N1));
+		aluno1.setNota2(Integer.valueOf(N2));
+		aluno1.setNota3(Integer.valueOf(N3));
+		aluno1.setNota4(Integer.valueOf(N4));
 		
 		
 		

@@ -19,7 +19,7 @@ public class PrimeiraClasseJava {
 		
 		String nome = JOptionPane.showInputDialog("Nome do aluno? ");
 		String idade = JOptionPane.showInputDialog("Idade do aluno? ");
-		String DataN=JOptionPane.showInputDialog("Data de nascimento do Aluno? ");
+		String DataI=JOptionPane.showInputDialog("Data de nascimento do Aluno? ");
 		String RG=JOptionPane.showInputDialog("Número de RG do Aluno? ");
 		String CPF=JOptionPane.showInputDialog("Número do CPF do Aluno? ");
 		String Mae=JOptionPane.showInputDialog("Nome da Mãe do Aluno?");
@@ -36,7 +36,7 @@ public class PrimeiraClasseJava {
 		Aluno aluno1 = new Aluno(); // Joao
 		aluno1.setNome(nome);
 		aluno1.setIdade(Integer.valueOf(idade)); // Passando de String para Int
-		aluno1.setDataNascimento(DataN);
+		aluno1.setDataNascimento(DataI);
 		aluno1.setRegistroGeral(RG);
 		aluno1.setNumeroCPF(CPF);
 		aluno1.setNomeMae(Mae);
@@ -44,10 +44,10 @@ public class PrimeiraClasseJava {
 		aluno1.setDatamatricula(DataM);
 		aluno1.setNomeEscola(NomeE);
 		aluno1.setSerieMatriculado(SerieM);
-		aluno1.setNota1(Double.parseDouble(N1)); // Passando de String para Double
-		aluno1.setNota2(Double.parseDouble(N2));
-		aluno1.setNota3(Double.parseDouble(N3));
-		aluno1.setNota4(Double.parseDouble(N4));
+		aluno1.setNota1(Integer.valueOf(N1));
+		aluno1.setNota2(Integer.valueOf(N2));
+		aluno1.setNota3(Integer.valueOf(N3));
+		aluno1.setNota4(Integer.valueOf(N4));
 		
 		
 		
