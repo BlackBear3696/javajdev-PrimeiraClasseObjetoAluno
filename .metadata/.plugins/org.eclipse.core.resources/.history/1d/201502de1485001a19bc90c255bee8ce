@@ -183,7 +183,6 @@ public class Aluno {
 	}
 
 	//Comparação entre atributos do objeto para saber se os atributos de A = B
-	// Selecionar os atributos que seram comparados
 	
 	@Override
 	public int hashCode() {

@@ -56,22 +56,8 @@ public class PrimeiraClasseJava {
 		System.out.println("Resultado = " + aluno1.getAlunoAprovado2());*/
 		
 		
-		// Equals e HashCode (Diferenciar Objetos)
 		
-		Aluno aluno1 = new Aluno();
-		aluno1.setNome("Alex");
-		aluno1.setNumeroCPF("123");
 		
-		Aluno aluno2 = new Aluno();
-		aluno2.setNome("Alex");
-		aluno2.setNumeroCPF("123");
-		
-		if (aluno1.equals(aluno2)) {
-			System.out.println("São iguais");
-		}
-		else {
-			System.out.println("Não são iguais");
-		}
 		sc.close();
 	}
 

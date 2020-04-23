@@ -182,15 +182,11 @@ public class Aluno {
 				+ "]";
 	}
 
-	//Comparação entre atributos do objeto para saber se os atributos de A = B
-	// Selecionar os atributos que seram comparados
-	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((nome == null) ? 0 : nome.hashCode());
-		result = prime * result + ((numeroCPF == null) ? 0 : numeroCPF.hashCode());
 		return result;
 	}
 
@@ -208,14 +204,8 @@ public class Aluno {
 				return false;
 		} else if (!nome.equals(other.nome))
 			return false;
-		if (numeroCPF == null) {
-			if (other.numeroCPF != null)
-				return false;
-		} else if (!numeroCPF.equals(other.numeroCPF))
-			return false;
 		return true;
 	}
-
 	
 	
 			
