@@ -36,7 +36,7 @@ public class PrimeiraClasseJava {
 		Aluno aluno1 = new Aluno(); // Joao
 		aluno1.setNome(nome);
 		aluno1.setIdade(Integer.valueOf(idade)); // Passando de String para Int
-		/*9aluno1.setDataNascimento(DataN);
+		/*aluno1.setDataNascimento(DataN);
 		aluno1.setRegistroGeral(RG);
 		aluno1.setNumeroCPF(CPF);
 		aluno1.setNomeMae(Mae);
