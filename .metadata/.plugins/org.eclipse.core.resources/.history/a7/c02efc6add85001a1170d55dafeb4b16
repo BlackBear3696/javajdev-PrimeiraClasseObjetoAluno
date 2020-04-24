@@ -135,7 +135,7 @@ public class Aluno {
 			somaNotas += disciplina.getNota();
 		}
 		
-		return somaNotas/disciplinas.size(); // Size faz a contagem do objeto disciplina
+		return somaNotas/disciplinas.size();
 		
 	}// Acessndo o objeto de outra classe
 	

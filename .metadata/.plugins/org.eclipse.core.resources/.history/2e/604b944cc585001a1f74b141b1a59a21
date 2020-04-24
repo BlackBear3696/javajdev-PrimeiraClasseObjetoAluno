@@ -29,8 +29,14 @@ public class PrimeiraClasseJava {
 		String DataM=JOptionPane.showInputDialog("Data da matricula do Aluno? ");
 		String NomeE=JOptionPane.showInputDialog("Nome da escola do Aluno?");*/
 		String SerieM=JOptionPane.showInputDialog("Serie que o Aluno está matriculado?");
-		
-		
+		String disc1=JOptionPane.showInputDialog("Disciplina 1? ");
+		String N1=JOptionPane.showInputDialog("Nota1 do Aluno? ");
+		String disc2=JOptionPane.showInputDialog("Disciplina 2? ");
+		String N2=JOptionPane.showInputDialog("Nota2 do Aluno? ");
+		String disc3=JOptionPane.showInputDialog("Disciplina 3? ");
+		String N3=JOptionPane.showInputDialog("Nota3 do Aluno? ");
+		String disc4=JOptionPane.showInputDialog("Disciplina 4? ");
+		String N4=JOptionPane.showInputDialog("Nota4 do Aluno? ");
 		
 		
 		Aluno aluno1 = new Aluno(); // Joao
@@ -46,30 +52,11 @@ public class PrimeiraClasseJava {
 		aluno1.setSerieMatriculado(SerieM);*/
 		
 		Disciplina disciplina1 = new Disciplina();
-		disciplina1.setDisciplina("PostgreSQL");
-		disciplina1.setNota(9);
+		disciplina1.setDisciplina1("Banco");
+		disciplina1.setNota1(9);
 		
-		aluno1.getDisciplinas().add(disciplina1);
 		
-		Disciplina disciplina2 = new  Disciplina();
-		disciplina2.setDisciplina("PHP");
-		disciplina2.setNota(8);
-		
-		aluno1.getDisciplinas().add(disciplina2);
-		
-		Disciplina disciplina3 = new Disciplina();
-		disciplina3.setDisciplina("Docker");
-		disciplina3.setNota(9);
-		
-		aluno1.getDisciplinas().add(disciplina3);
-		
-		Disciplina disciplina4 = new Disciplina();
-		disciplina4.setDisciplina("Zabbix");
-		disciplina4.setNota(9);
-		
-		aluno1.getDisciplinas().add(disciplina4);
-		
-		System.out.println(aluno1); // Descrição do Objeto na memoria
+		System.out.println(aluno1.toString()); // Descrição do Objeto na memoria
 		System.out.println("Media do Aluno = " + aluno1.getMediaNota());
 		System.out.println("Resultado = " + aluno1.getAlunoAprovado());
 		System.out.println("Resultado = " + aluno1.getAlunoAprovado2());

@@ -129,14 +129,7 @@ public class Aluno {
 	
 	// Metodo que retorna a media do Aluno
 	public double getMediaNota() {
-	
-		double somaNotas = 0.0;
-		for (Disciplina disciplina : disciplinas) {
-			somaNotas += disciplina.getNota();
-		}
-		
-		return somaNotas/disciplinas.size(); // Size faz a contagem do objeto disciplina
-		
+		return 0;
 	}// Acessndo o objeto de outra classe
 	
 	// Metodo que retorna true para Aprovado e false para Reprovado

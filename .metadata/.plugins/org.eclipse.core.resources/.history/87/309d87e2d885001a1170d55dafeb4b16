@@ -29,8 +29,14 @@ public class PrimeiraClasseJava {
 		String DataM=JOptionPane.showInputDialog("Data da matricula do Aluno? ");
 		String NomeE=JOptionPane.showInputDialog("Nome da escola do Aluno?");*/
 		String SerieM=JOptionPane.showInputDialog("Serie que o Aluno está matriculado?");
-		
-		
+		String disc1=JOptionPane.showInputDialog("Disciplina 1? ");
+		String N1=JOptionPane.showInputDialog("Nota1 do Aluno? ");
+		String disc2=JOptionPane.showInputDialog("Disciplina 2? ");
+		String N2=JOptionPane.showInputDialog("Nota2 do Aluno? ");
+		String disc3=JOptionPane.showInputDialog("Disciplina 3? ");
+		String N3=JOptionPane.showInputDialog("Nota3 do Aluno? ");
+		String disc4=JOptionPane.showInputDialog("Disciplina 4? ");
+		String N4=JOptionPane.showInputDialog("Nota4 do Aluno? ");
 		
 		
 		Aluno aluno1 = new Aluno(); // Joao
