@@ -34,6 +34,7 @@ public class PrimeiraClasseJava {
 		
 		
 		Aluno aluno1 = new Aluno(); // Joao
+		
 		aluno1.setNome(nome);
 		aluno1.setIdade(Integer.valueOf(idade)); // Passando de String para Int
 		/*aluno1.setDataNascimento(DataN);
@@ -45,29 +46,11 @@ public class PrimeiraClasseJava {
 		aluno1.setNomeEscola(NomeE);
 		aluno1.setSerieMatriculado(SerieM);*/
 		
-		Disciplina disciplina1 = new Disciplina();
-		disciplina1.setDisciplina("PostgreSQL");
-		disciplina1.setNota(9);
-		
-		aluno1.getDisciplinas().add(disciplina1);
-		
-		Disciplina disciplina2 = new  Disciplina();
-		disciplina2.setDisciplina("PHP");
-		disciplina2.setNota(8);
-		
-		aluno1.getDisciplinas().add(disciplina2);
-		
-		Disciplina disciplina3 = new Disciplina();
-		disciplina3.setDisciplina("Docker");
-		disciplina3.setNota(9);
-		
-		aluno1.getDisciplinas().add(disciplina3);
-		
-		Disciplina disciplina4 = new Disciplina();
-		disciplina4.setDisciplina("Zabbix");
-		disciplina4.setNota(9);
-		
-		aluno1.getDisciplinas().add(disciplina4);
+		for(int pos=1; pos<=4;pos++) {
+			String nomeDisciplina=JOptionPane.showInputDialog("Nome da disciplina? ");
+			String notaDisciplina=JOptionPane.showInputDialog("Nota da disciplina? ");
+			Disciplina disciplina = new Disciplina();
+		}
 		
 		System.out.println(aluno1); // Descrição do Objeto na memoria
 		System.out.println("Media do Aluno = " + aluno1.getMediaNota());
